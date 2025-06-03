@@ -16,3 +16,33 @@ In this project layered approach, aligning with Medallion Lakehouse pattern used
 
 
 ![Project_architecture](architecture-solution.jpg)
+
+## ETL Process Challenges
+
+1- Ensuring data completeness and updating dataset efficiently in ETL process is one of the challenges. by using Get Metadata activity and 'If condition' logic in Azure Data Factory could handle missing files. by setting up parameters to trigger based on current start date files and folders, ensured only the lates and relevant data was processed in each run
+
+2- managing correct access and permissions, specifically in setting up secure connectivity and access from Databricks File system(DBFS) to ADLS Gen2, and succussfully mounting ADLS Gen2 for seamless data interaction within Databricks. This involved careful configuration of service principals, role-based access control (RBAC), and Databricks secret scopes to ensure secure and efficient data access.
+
+## Technology Used
+
+1. Programming Language - Python, Pyspark
+2. Scripting Language - Shell, SQL
+3. Modern Data Engineering Platfrom
+4. Azure Cloud Platform
+   - Azure Databricks
+   - Azure Data Lake Storage Gen2
+   - Key vault
+   - Azure AD
+
+## Dataset Overview
+
+The project utilized diverse dataset (8 different files) in various formats (JSON, Parquet, CSV). Involved nested data ingestion, handling complex structures within the JSON files. Also, successfully managed multi file ingestion, ensuring complete coverage of F!
+historical record.
+
+## More information about dataset:
+![original dataset](https://ergast.com/mrd/)
+
+### Data Model:
+![Data model](https://github.com/MisaHojjat/F1-Azure-Databricks-Pipeline-Ergast-API/blob/main/formula1_ergast_db_data_model.png)
+
+
