@@ -33,7 +33,7 @@ In this project layered approach, aligning with Medallion Lakehouse pattern used
    - Azure Key vault
    - Azure AD
    - Azure Data Factory
-   - GitHub/GitBash (version control)
+   - GitHub (version control)
    - Microsoft Cost Management
    - Azure Monitor
    - Security Center
