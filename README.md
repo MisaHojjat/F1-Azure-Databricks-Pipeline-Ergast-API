@@ -15,7 +15,7 @@ In this project layered approach, aligning with Medallion Lakehouse pattern used
 3- Gold Layer (Transformed & Business-Ready Data): The final stage transforms the processed data into highly aggregated and business-ready formats, stored as Delta Lake tables in the Gold layer within Azure Databricks. Here, Azure Databricks notebooks apply complex business logic, calculate key metrics, and optimize the data structure for analytical consumption and as input dataset for Power BI dashboard.  
 
 
-![Project_architecture](architecture-solution.jpg)
+![Project_architecture](https://github.com/MisaHojjat/F1-Azure-Databricks-Pipeline-Ergast-API/blob/main/architectur_solution.JPG)
 
 ## ETL Process Challenges
 
@@ -30,8 +30,12 @@ In this project layered approach, aligning with Medallion Lakehouse pattern used
 3. Modern Data Engineering Platfrom- Databricks
 4. Azure Cloud Platform
    - Azure Data Lake Storage Gen2
-   - Key vault
+   - Azure Key vault
    - Azure AD
+   - GitHub
+   - Microsoft Cost Management
+   - Azure Monitor
+   - Security Center
 
 ## Dataset Overview
 
