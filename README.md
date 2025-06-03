@@ -21,7 +21,7 @@ In this project layered approach, aligning with Medallion Lakehouse pattern used
 
 1- Ensuring data completeness and updating dataset efficiently in ETL process is one of the challenges. by using Get Metadata activity and 'If condition' logic in Azure Data Factory could handle missing files. by setting up parameters to trigger based on current start date files and folders, ensured only the lates and relevant data was processed in each run
 
-2- managing correct access and permissions, specifically in setting up secure connectivity and access from Databricks File system(DBFS) to ADLS Gen2, and succussfully mounting ADLS Gen2 for seamless data interaction within Databricks. This involved careful configuration of service principals, role-based access control (RBAC), and Databricks secret scopes to ensure secure and efficient data access.
+2- Managing correct access and permissions, specifically in setting up secure connectivity and access from Databricks File system(DBFS) to ADLS Gen2, and succussfully mounting ADLS Gen2 for seamless data interaction within Databricks. This involved careful configuration of service principals, role-based access control (RBAC), and Databricks secret scopes to ensure secure and efficient data access.
 
 ## Technology Used
 
@@ -39,7 +39,7 @@ In this project layered approach, aligning with Medallion Lakehouse pattern used
 
 ## Dataset Overview
 
-The project utilized diverse dataset (8 different files) in various formats (JSON, Parquet, CSV). Involved nested data ingestion, handling complex structures within the JSON files. Also, successfully managed multi file ingestion, ensuring complete coverage of F!
+The project utilized diverse dataset (8 different files) in various formats (JSON, Parquet, CSV). Involved nested data ingestion, handling complex structures within the JSON files. Also, successfully managed multi file ingestion, ensuring complete coverage of F1
 historical record.
 
 ### More information about dataset:
