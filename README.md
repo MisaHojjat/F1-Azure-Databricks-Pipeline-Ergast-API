@@ -27,8 +27,11 @@ In this project layered approach, aligning with Medallion Lakehouse pattern used
 
 1. Programming Language - Python, Pyspark
 2. Scripting Language - Shell, SQL
-3. Modern Data Engineering Platfrom- Databricks
-4. Azure Cloud Platform
+3. Modern Data Engineering Platfrom
+   - Databricks Notebook
+   - Databricks DBFS
+   - Databricks Dalta lake
+5. Azure Cloud Platform
    - Azure Data Lake Storage Gen2
    - Azure Key vault
    - Azure AD
