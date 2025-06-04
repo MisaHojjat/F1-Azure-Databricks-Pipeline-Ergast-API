@@ -19,9 +19,14 @@ In this project layered approach, aligning with Medallion Lakehouse pattern used
 
 ## ETL Process Challenges
 
-1- Ensuring data completeness and updating dataset efficiently in ETL process is one of the challenges. by using Get Metadata activity and 'If condition' logic in Azure Data Factory could handle missing files. by setting up parameters to trigger based on current start date files and folders, ensured only the lates and relevant data was processed in each run
+1- Ensuring data completeness and updating dataset efficiently in ETL process is one of the challenges. by using Get Metadata activity and 'If condition' logic in Azure Data Factory could handle missing files. by setting up parameters to trigger based on current start date files and folders, ensured only the lates and relevant data was processed in each run. Also created a constrain in Ingest race notebook to check files date value and if it's not match with setup date parameters send an error message.
+
+![image](https://github.com/user-attachments/assets/f42d91c9-3fa5-4299-8ebe-e5de5edc58b9)
+
 
 2- Managing correct access and permissions, specifically in setting up secure connectivity and access from Databricks File system(DBFS) to ADLS Gen2, and succussfully mounting ADLS Gen2 for seamless data interaction within Databricks. This involved careful configuration of service principals, role-based access control (RBAC), and Databricks secret scopes to ensure secure and efficient data access.
+
+
 
 ## Technology Used
 
