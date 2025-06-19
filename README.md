@@ -61,7 +61,7 @@ historical record.
 
 ## Power BI Dashboard
 
-The Power BI dashboard provides detailed view of Formula 1 race results, Pulled data from Delta Lake Gold Layer through connecting directly to Azure Databricks F1 Workspace cluster. To optimize performance and simplify data consumption, STAR data model used, connected to lookup tables like Calander, status, country and region.
+The Power BI dashboard provides detailed view of Formula 1 race results, Pulled data from Delta Lake Gold Layer through connecting directly to Azure Databricks F1 Workspace cluster. To optimize performance and simplify data consumption, STAR data model used, connected to lookup tables like Calander, status, country and region. ![pbix File](https://github.com/MisaHojjat/F1-Azure-Databricks-Pipeline-Ergast-API/blob/main/F1-Azure_Databricks.pbix)
 
 ![image](https://github.com/user-attachments/assets/98b1c749-7895-420a-8585-eb65bed86330)
 
