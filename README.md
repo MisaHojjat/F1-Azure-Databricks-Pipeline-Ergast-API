@@ -55,7 +55,18 @@ historical record.
 ### More information about dataset:
 ![original dataset](https://ergast.com/mrd/)
 
-### Data Model:
+## Data Model
 ![Data model](https://github.com/MisaHojjat/F1-Azure-Databricks-Pipeline-Ergast-API/blob/main/formula1_ergast_db_data_model.png)
+
+
+## Power BI Dashboard
+
+The Power BI dashboard provides detailed view of Formula 1 race results, Pulled data from Delta Lake Gold Layer through connecting directly to Azure Databricks F1 Workspace cluster. To optimize performance and simplify data consumption, STAR data model used, connected to lookup tables like Calander, status, country and region.
+
+![image](https://github.com/user-attachments/assets/98b1c749-7895-420a-8585-eb65bed86330)
+
+### Power BI Data Model (STAR)
+
+![image](https://github.com/user-attachments/assets/cce5c556-c1f0-4d0a-84f9-4653fc552ed9)
 
 
