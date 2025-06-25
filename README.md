@@ -74,7 +74,7 @@ The Power BI dashboard provides detailed view of Formula 1 race results, Pulled 
 ### Databricks Data Engineer Professional Certificate
 (https://credentials.databricks.com/c76ab2e6-2362-4acb-9716-fa05add7d7b0#acc.p4qjtwdz) 
 
-### Databricks Academy:  
+### Databricks Academy (Two Days Training):  
 Covered:   
 1- Databricks Streaming and Delta Live Tables  
 2- Databricks Data Privacy  
